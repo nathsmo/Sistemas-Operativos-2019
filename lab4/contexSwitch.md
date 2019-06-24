@@ -24,6 +24,8 @@ La prioridad que tiene el proceso en el sistema y la direccion de la cola donde 
 * **I/O Status Information:**   
 Esta información incluye la lista de dispositivos que está utilizando el proceso.
 
+![Tabla PCB](PCB.png)
+
 El Context Switch puede ser provocado por tres diferentes motivos: 
 * **Multitasking:**   
 Una tarea realiza un context switch para que otra tarea tenga el control del CPU también y lo ejecutar su proposito. 
@@ -33,3 +35,46 @@ El hardware cambia de contexto cuando una interrupción es ocurren en el sistema
 Occurre cuando el sistema operativo necesita cambiar de Mode para realizar tareas con mayor privilegios (Kernel Mode) en el hardware o esta regresando de este mode a un mode con menos privilegios (User Mode.
 
 Basicamente el Sistema Operativo solo puede realizar una tarea a la vez. Sin embargo, debido a que el CPU es demasiado rápido puede realizar sub-divisiones de tareas en un tiempo muy corto una tras otra, que a los ojos humanos pareciera que están siendo ejecutadas en paralelo. 
+
+El siguiente diagrama representa el proceso de Context Switch:
+![Context Switch](ContextSwitching.png)
+
+
+A continuacion se realiza un ejemplo de la simulacion de Context Switch utilizando funciones para simular diferentes procesos. 
+
+```c++
+#include <stdio.h>
+#include <dos.h>
+#include <conio.h>
+
+#define INTR 0X1C /* Interrupción del Clock Tick*/
+
+//https://en.wikipedia.org/wiki/BIOS_interrupt_call
+//http://stanislavs.org/helppc/int_table.html
+
+#ifdef __cplusplus
+    #define __CPPARGS ...
+#else
+    #define __CPPARGS
+#endif
+```
+
+## 2. Simular Multitask con cambio de contexto real
+A continuacion se realiza un ejemplo de simulación de Contex Switch obteniendo el Code Segmente y Program Counter de cada cambio de *proceso* que se realiza.
+
+```c++
+#include <stdio.h>
+#include <dos.h>
+#include <conio.h>
+
+#define INTR 0X1C /* Interrupción del Clock Tick*/
+
+//https://en.wikipedia.org/wiki/BIOS_interrupt_call
+//http://stanislavs.org/helppc/int_table.html
+
+#ifdef __cplusplus
+    #define __CPPARGS ...
+#else
+    #define __CPPARGS
+#endif
+```
