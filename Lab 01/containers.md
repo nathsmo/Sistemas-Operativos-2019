@@ -1,3 +1,26 @@
 # Contenedores de Docker
-##### Angel Tórtola
+
+### Introducción
+
+### Comandos 
+
+#### Pull
+
+```bash
+docker pull [image-name]
+```
+
+#### Run
+
+#### Image
+
+#### Container
+
+#### Attach
+
+#### Checkpoint 
+
+#### Commit
+
+#### Config
 
