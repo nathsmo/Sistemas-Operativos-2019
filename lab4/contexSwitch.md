@@ -34,7 +34,7 @@ El hardware cambia de contexto cuando una interrupción es ocurren en el sistema
 * **User and Kernel Mode Switching:**    
 Occurre cuando el sistema operativo necesita cambiar de Mode para realizar tareas con mayor privilegios (Kernel Mode) en el hardware o esta regresando de este mode a un mode con menos privilegios (User Mode.
 
-Basicamente el Sistema Operativo solo puede realizar una tarea a la vez. Sin embargo, debido a que el CPU es demasiado rápido puede realizar sub-divisiones de tareas en un tiempo muy corto una tras otra, que a los ojos humanos pareciera que están siendo ejecutadas en paralelo. 
+Basicamente el Sistema Operativo solo puede realizar una tarea a la vez. Sin embargo, debido a que el CPU es demasiado rápido puede realizar sub-divisiones de tareas en un tiempo muy corto una tras otra, que a los ojos humanos pareciera que están siendo ejecutadas al mismo tiempo. 
 
 El siguiente diagrama representa el proceso de Context Switch:
 ![Context Switch](ContextSwitching.png)
