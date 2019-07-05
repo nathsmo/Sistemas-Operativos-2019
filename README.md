@@ -15,3 +15,8 @@ La recopilación de los trabajos hechos durante la clase de Sistemas Operativos 
 ### Resúmenes (en inglés) del libro
 
 1. [Capítulo 1](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/Chapter_Summaries/Summary%20Chapter%20One%20-%20Operating%20System.pdf) por Nathalia Morales
+
+2. [Capítulo 2](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/Chapter_Summaries/Summary%20Chapter%20Two%20-%20Operating%20System%20Structures.pdf) por Nathalia Morales
+
+
+### Resúmenes Del Capítulo 8 (TAREA)
