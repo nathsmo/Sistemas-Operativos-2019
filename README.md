@@ -20,5 +20,10 @@ La recopilación de los trabajos hechos durante la clase de Sistemas Operativos 
 
 2. [Capítulo 2](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/Chapter_Summaries/Summary%20Chapter%20Two%20-%20Operating%20System%20Structures.pdf) por Nathalia Morales
 
+3. [Capítulo 3](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/Chapter_Summaries/Summary%20Chapter%20Three%20-%20Processes.pdf) por Nathalia Morales
+
+4. [Capítulo 4](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/Chapter_Summaries/Summary%20Chapter%20Four%20-%20Threads.pdf) por Nathalia Morales
+
+5. [Capítulo 5](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/Chapter_Summaries/Summary%20Chapter%20Five%20-%20Process%20Synchronization.pdf) por Nathalia Morales
 
 ### Resúmenes Del Capítulo 8 (TAREA)
