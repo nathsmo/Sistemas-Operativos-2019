@@ -26,4 +26,8 @@ La recopilación de los trabajos hechos durante la clase de Sistemas Operativos 
 
 5. [Capítulo 5](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/Chapter_Summaries/Summary%20Chapter%20Five%20-%20Process%20Synchronization.pdf) por Nathalia Morales
 
+6. [Capítulo 6]() PENDIENTE por Nathalia Morales
+
+8. [Capítulo 8]() PENDIENTE por Nathalia Morales
+
 ### Resúmenes Del Capítulo 8 (TAREA)
