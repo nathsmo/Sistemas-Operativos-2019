@@ -31,3 +31,8 @@ La recopilación de los trabajos hechos durante la clase de Sistemas Operativos 
 8. [Capítulo 8]() PENDIENTE por Nathalia Morales
 
 ### Resúmenes Del Capítulo 8 (TAREA)
+
+* [Capítulo 8](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/Resumen%20Cap%208.pdf) por Ricardo Mendoza
+
+* [Capítulo 8](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/Resumen%20de%20las%208%20pm.pdf) por Nathalia Morales
+
