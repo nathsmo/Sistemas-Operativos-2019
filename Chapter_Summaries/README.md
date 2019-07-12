@@ -10,3 +10,6 @@
 * [Chapter 5](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/Chapter_Summaries/Summary%20Chapter%20Five%20-%20Process%20Synchronization.pdf)
 * [Chapter 6]() PENDIENTE
 * [Chapter 8](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/Chapter_Summaries/Summary%20Chapter%20Eight%20-%20Main%20Memory.pdf)
+
+
+* [All of the Book's Chapter summaries](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/Chapter_Summaries/Chapter%20Summaries.pdf)
