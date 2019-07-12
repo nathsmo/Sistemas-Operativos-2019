@@ -38,3 +38,5 @@ La recopilación de los trabajos hechos durante la clase de Sistemas Operativos 
 
 * [Capítulo 8](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/CAP8.pdf) por Carlos Cujcuj
 
+* [Capítulo 8](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/Cap%208%20-%20Tórtola.md) por Luis Angel Tórtola
+
