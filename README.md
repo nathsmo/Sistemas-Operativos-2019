@@ -28,7 +28,7 @@ La recopilación de los trabajos hechos durante la clase de Sistemas Operativos 
 
 6. [Capítulo 6]() PENDIENTE por Nathalia Morales
 
-8. [Capítulo 8]() PENDIENTE por Nathalia Morales
+8. [Capítulo 8](https://github.com/nathsmo/Sistemas-Operativos-2019/blob/master/Chapter_Summaries/Summary%20Chapter%20Eight%20-%20Main%20Memory.pdf) por Nathalia Morales
 
 ### Resúmenes Del Capítulo 8 (TAREA)
 
