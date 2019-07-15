@@ -44,7 +44,7 @@ def sendtosql(fila, columna, resultado, tiempo, thread):
     #print("Ingresa a sendtosql")
     conn = pymysql.connect(host='localhost',
             user='root',
-            password='______',
+            password='potter11',
             db='database_name',
             charset='utf8mb4',
             cursorclass=pymysql.cursors.DictCursor)
@@ -76,6 +76,7 @@ def productores_ft(name):
             tasks.pop(0)
         except:
             task=""
+        mutex.release()
         if task=="":
             time.sleep(2)
         else:
@@ -85,12 +86,11 @@ def productores_ft(name):
                 valmb = task[1][i]
                 #print("INDEX.    ", index, "valma ", valma, "valmb ", valmb, "i.  ", i, "thread. ", name)
             # LOG OPERATION MADE 
-                #print("Thread PRODUCTOR %s: (%s, %s) INDEX %s" % (name, valma, valmb, index))
+                print("Thread PRODUCTOR %s: (%s, %s) INDEX %s" % (name, valma, valmb, index))
                 tlist = [valma, valmb, index]
                 buffer_ready.append(tlist)
                 #print("This is the tlist", tlist)
                 #print("Buffer list", buffer_ready, "\n")
-        mutex.release()
         fillCount.release()
 
 def consumidor_ft(name):
@@ -105,6 +105,7 @@ def consumidor_ft(name):
             #print("This is the task", task)
         except:
             task=""
+        mutex.release()
         if task=="":
             time.sleep(2)
         else:
@@ -116,7 +117,6 @@ def consumidor_ft(name):
             print("Thread CONSUMIDOR %s: (%s, %s) = %s INDEX %s" % (name, valma, valmb, res, index))
             etime = time.time() - start_time
             sendtosql(index[0], index[1], res, etime, name)
-        mutex.release()
         emptyCounter.release()
 
 if __name__ == "__main__":
