@@ -44,7 +44,7 @@ def sendtosql(fila, columna, resultado, tiempo, thread):
     #print("Ingresa a sendtosql")
     conn = pymysql.connect(host='localhost',
             user='root',
-            password='potter11',
+            password='______',
             db='database_name',
             charset='utf8mb4',
             cursorclass=pymysql.cursors.DictCursor)
